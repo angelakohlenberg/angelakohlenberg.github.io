@@ -1,5 +1,5 @@
 // Initialize font properties
-const fontname = "Bebas Neue";
+const fontname = "Barlow";
 const fontweights = [300, 400]
 
 // Color properties
