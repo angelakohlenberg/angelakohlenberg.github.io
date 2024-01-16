@@ -3,8 +3,8 @@ const fontname = "Bebas Neue";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#222";
-const accentcolor = "#45818e";
+const basecolor = "#5b5b5b";
+const accentcolor = "#000000";
 const highlightcolor = "#111";
 
 // const basecolor = "#888";
