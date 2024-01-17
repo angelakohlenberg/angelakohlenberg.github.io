@@ -39,11 +39,14 @@ const menudecoration = "none";
 // Header properties
 const namecolor = accentcolor;
 const namefontsize = "23pt";
+const nametext = "uppercase";
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
 const headerdecoration = "none";
+const headertext = "uppercase";
 const subheadercolor = accentcolor;
 const subheaderfontsize = "14pt";
+const subheadertext = "uppercase";
 
 
 
@@ -104,12 +107,16 @@ $(".header").css("color", headercolor);
 $(".header").css("font-family", headerfontname);
 $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
+$(".header").css("text-transform", headertext);
 $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
 $(".subheader").css("font-family", headerfontname);
+$(".subheader").css("text-transform", subheadertext);
 $(".name").css("color", namecolor);
 $(".name").css("font-family", headerfontname);
 $(".name").css("font-size", namefontsize);
+$(".name").css("text-transform", nametext);
+
 $(".smalltext").css("font-size", smalltextfontsize);
 
 $(".papertitle").css("color", ptitlecolor);
