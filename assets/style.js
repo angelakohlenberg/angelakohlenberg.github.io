@@ -14,7 +14,8 @@ const highlightcolor = "#45818e";
 
 // Body properties
 const bodyfontweight = 300;
-const titlefontweight = 500;
+const headingfontweight = 500;
+const titlefontweight = 450;
 const bodyfontsize = "12pt";
 const smalltextfontsize = "10pt";
 const backgroundcolor = "#fff";
@@ -40,13 +41,16 @@ const namecolor = accentcolor;
 const namefontsize = "23pt";
 const namefontname = "Oswald";
 const nametext = "uppercase";
+const nameweight = headerfontweight;
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
 const headerdecoration = "none";
 const headertext = "uppercase";
+const headerweight = headerfontweight;
 const subheadercolor = accentcolor;
 const subheaderfontsize = "14pt";
 const subheadertext = "uppercase";
+const subheaderweight = headerfontweight;
 
 
 
@@ -107,13 +111,16 @@ $(".header").css("color", headercolor);
 $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
 $(".header").css("text-transform", headertext);
+$(".header").css("font-weight", headerweight);
 $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
 $(".subheader").css("text-transform", subheadertext);
+$(".subheader").css("font-weight", subheaderweight);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 $(".name").css("font-family", namefontname);
 $(".name").css("text-transform", nametext);
+$(".name").css("font-weight", nameweight);
 
 $(".smalltext").css("font-size", smalltextfontsize);
 
