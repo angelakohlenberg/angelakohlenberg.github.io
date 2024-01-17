@@ -38,6 +38,7 @@ const menudecoration = "none";
 // Header properties
 const namecolor = accentcolor;
 const namefontsize = "23pt";
+const namefontname = "Barlow Condensed";
 const nametext = "uppercase";
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
@@ -111,6 +112,7 @@ $(".subheader").css("font-size", subheaderfontsize);
 $(".subheader").css("text-transform", subheadertext);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
+$(".name").css("font-family", namefontname);
 $(".name").css("text-transform", nametext);
 
 $(".smalltext").css("font-size", smalltextfontsize);
