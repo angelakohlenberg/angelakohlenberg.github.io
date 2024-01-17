@@ -94,6 +94,8 @@ $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
 
+$("s").css("font-size", smalltextfontsize);
+
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
 $(".menulink").css("text-decoration", menudecoration);
@@ -105,7 +107,6 @@ $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
-$(".smalltext").css("font-size", smalltextfontsize);
 
 $(".papertitle").css("color", ptitlecolor);
 $(".papertitle").css("font-size", ptitlefontsize);
