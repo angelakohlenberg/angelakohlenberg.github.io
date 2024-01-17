@@ -48,7 +48,7 @@ const headerdecoration = "none";
 const headertext = "uppercase";
 const headerweight = headerfontweight;
 const subheadercolor = accentcolor;
-const subheaderfontsize = "14pt";
+const subheaderfontsize = "12pt";
 const subheadertext = "uppercase";
 const subheaderweight = headerfontweight;
 
