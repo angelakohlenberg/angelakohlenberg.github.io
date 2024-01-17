@@ -1,7 +1,6 @@
 // Initialize font properties
 const fontname = "Barlow";
-const fontstyle = "Thin 100";
-const fontweights = [300, 400]
+const fontweights = [300, 400, 500]
 
 
 // Color properties
@@ -15,7 +14,7 @@ const highlightcolor = "#45818e";
 
 // Body properties
 const bodyfontweight = 300;
-const titlefontweight = 400;
+const titlefontweight = 500;
 const bodyfontsize = "12pt";
 const smalltextfontsize = "10pt";
 const backgroundcolor = "#fff";
@@ -86,7 +85,7 @@ const instyearsize = "11px";
 // Works for sans serif, change otherwise
 $("head").append("<link href='https://fonts.googleapis.com/css2?family=" + fontname + ":wght@" + fontweights.join(';') + "&display=swap' rel='stylesheet' type='text/css'>");
 $("body").css("font-family", fontname);
-$("body").css("font-style", fontstyle);
+$("body").css("font-weight", bodyfontweight);
 
 $("body").css("color", basecolor);
 $("body").css("font-size", bodyfontsize);
