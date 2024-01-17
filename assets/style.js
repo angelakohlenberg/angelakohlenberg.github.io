@@ -3,9 +3,9 @@ const fontname = "Barlow";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#5b5b5b";
+const basecolor = "#444444";
 const accentcolor = "#000000";
-const highlightcolor = "#111";
+const highlightcolor = "#45818e";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -13,11 +13,12 @@ const highlightcolor = "#111";
 
 // Body properties
 const bodyfontweight = 300;
+const titlefontweight = 400;
 const bodyfontsize = "12pt";
 const backgroundcolor = "#fff";
 
 // Link properties
-const acolor = accentcolor;
+const acolor = highlightcolor;
 const adecoration = "none";
 // const ahovercolor = accentcolor;
 // const ahoverduration = "0.3s";
@@ -32,17 +33,20 @@ const menudecoration = "none";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
+const namecolor = accentcolor;
+const namefontsize = "23pt";
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
 const headerdecoration = "none";
-const namecolor = accentcolor;
-const namefontsize = "23pt";
+const subheadercolor = accentcolor;
+const subheaderfontsize = "14pt";
+
 
 
 // Publication properties
 const ptitlecolor = accentcolor;
 const ptitlefontsize = bodyfontsize;
-const ptitleweight = bodyfontweight;
+const ptitleweight = titlefontweight;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
 
@@ -94,6 +98,8 @@ $(".menulink").css("text-decoration", menudecoration);
 $(".header").css("color", headercolor);
 $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
+$(".subheader").css("color", subheadercolor);
+$(".subheader").css("font-size", subheaderfontsize);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 
