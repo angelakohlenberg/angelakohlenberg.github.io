@@ -15,7 +15,7 @@ const highlightcolor = "#F1C40F";
 // Body properties
 const bodyfontweight = 300;
 const headerfontweight = 500;
-const titlefontweight = 400;
+const titlefontweight = 425;
 const bodyfontsize = "12pt";
 const smalltextfontsize = "10pt";
 const backgroundcolor = "#fff";
@@ -40,7 +40,7 @@ const menudecoration = "none";
 const namecolor = accentcolor;
 const namefontsize = "23pt";
 const nametext = "uppercase";
-const nameweight = headerfontweight;
+const nameweight = bodyfontweight;
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
 const headerdecoration = "none";
