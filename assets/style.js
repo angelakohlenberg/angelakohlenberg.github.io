@@ -1,5 +1,6 @@
 // Initialize font properties
-const fontname = "Barlow";
+const bodyfontname = "Barlow";
+const headingfontname = "Barlow Condensed";
 const fontweights = [300, 400, 500]
 
 
@@ -84,7 +85,7 @@ const instyearsize = "11px";
 
 // Works for sans serif, change otherwise
 $("head").append("<link href='https://fonts.googleapis.com/css2?family=" + fontname + ":wght@" + fontweights.join(';') + "&display=swap' rel='stylesheet' type='text/css'>");
-$("body").css("font-family", fontname);
+$("body").css("font-family", bodyfontname);
 $("body").css("font-weight", bodyfontweight);
 
 $("body").css("color", basecolor);
@@ -100,11 +101,14 @@ $(".menulink").css("font-size", menufontsize);
 $(".menulink").css("text-decoration", menudecoration);
 
 $(".header").css("color", headercolor);
+$(".header").css("font-family", headerfontname);
 $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
 $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
+$(".subheader").css("font-family", headerfontname);
 $(".name").css("color", namecolor);
+$(".name").css("font-family", headerfontname);
 $(".name").css("font-size", namefontsize);
 $(".smalltext").css("font-size", smalltextfontsize);
 
