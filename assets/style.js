@@ -14,7 +14,7 @@ const highlightcolor = "#45818e";
 
 // Body properties
 const bodyfontweight = 300;
-const headingfontweight = 500;
+const headerfontweight = 500;
 const titlefontweight = 450;
 const bodyfontsize = "12pt";
 const smalltextfontsize = "10pt";
