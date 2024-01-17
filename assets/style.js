@@ -19,6 +19,7 @@ const backgroundcolor = "#fff";
 
 // Link properties
 const acolor = highlightcolor;
+const afontweight = 400;
 const adecoration = "none";
 // const ahovercolor = accentcolor;
 // const ahoverduration = "0.3s";
@@ -89,6 +90,7 @@ $("body").css("font-size", bodyfontsize);
 $("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
+$("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
 
 $(".menulink").css("color", menucolor);
