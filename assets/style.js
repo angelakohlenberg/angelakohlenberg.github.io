@@ -15,6 +15,7 @@ const highlightcolor = "#45818e";
 const bodyfontweight = 300;
 const titlefontweight = 400;
 const bodyfontsize = "12pt";
+const smalltextfontsize = "10pt";
 const backgroundcolor = "#fff";
 
 // Link properties
@@ -104,6 +105,7 @@ $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
+$(".smalltext").css("font-size", smalltextfontsize);
 
 $(".papertitle").css("color", ptitlecolor);
 $(".papertitle").css("font-size", ptitlefontsize);
