@@ -38,7 +38,7 @@ const menudecoration = "none";
 // Header properties
 const namecolor = accentcolor;
 const namefontsize = "23pt";
-const namefontname = "Barlow Condensed";
+const namefontname = "Oswald";
 const nametext = "uppercase";
 const headercolor = accentcolor;
 const headerfontsize = "18pt";
