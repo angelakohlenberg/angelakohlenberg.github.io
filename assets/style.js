@@ -6,7 +6,7 @@ const fontweights = [300, 400, 500]
 // Color properties
 const basecolor = "#444444";
 const accentcolor = "#000000";
-const highlightcolor = "#45818e";
+const highlightcolor = "#F1C40F";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
