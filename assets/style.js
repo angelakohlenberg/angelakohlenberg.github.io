@@ -39,7 +39,6 @@ const menudecoration = "none";
 // Header properties
 const namecolor = accentcolor;
 const namefontsize = "23pt";
-const namefontname = "Oswald";
 const nametext = "uppercase";
 const nameweight = headerfontweight;
 const headercolor = accentcolor;
@@ -118,7 +117,6 @@ $(".subheader").css("text-transform", subheadertext);
 $(".subheader").css("font-weight", subheaderweight);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
-$(".name").css("font-family", namefontname);
 $(".name").css("text-transform", nametext);
 $(".name").css("font-weight", nameweight);
 
