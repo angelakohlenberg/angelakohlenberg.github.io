@@ -104,6 +104,8 @@ $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
 
+$("sec").css("background-color", "#f6f6f6");
+
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
 $(".menulink").css("text-decoration", menudecoration);
