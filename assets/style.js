@@ -99,7 +99,7 @@ $("body").css("font-family", fontname);
 $("body").css("font-weight", bodyfontweight);
 $("body").css("color", basecolor);
 $("body").css("font-size", bodyfontsize);
-$("body").css("background-color", highlightcolor);
+$("body").css("background-color", darkbackgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
