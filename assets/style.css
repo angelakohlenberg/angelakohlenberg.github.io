@@ -1,3 +1,20 @@
+/* ==================
+ *
+ *  Global Class 
+ *
+ *===================*/
+.btn {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 12px 25px;
+  border-radius: 0;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background: transparent;
+}
+
 /* header style */
 header {
   padding: 20px 0;
