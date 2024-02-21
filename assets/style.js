@@ -7,7 +7,7 @@ const fontweights = [300, 400, 500]
 const basecolor = "#444444";
 const accentcolor = "#000000";
 const highlightcolor = "#2471A3";
-const darkbackgroundcolor = "#2471A3";
+const darkbackgroundcolor = "#F9F9F9";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -99,7 +99,7 @@ $("body").css("font-weight", bodyfontweight);
 
 $("body").css("color", basecolor);
 $("body").css("font-size", bodyfontsize);
-$("body").css("background-color", backgroundcolor);
+$("body").css("background-color", darkbackgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
