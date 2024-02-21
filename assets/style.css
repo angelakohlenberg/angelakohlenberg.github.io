@@ -1,3 +1,70 @@
+/* header style */
+header {
+  padding: 20px 0;
+  background: #fff;
+}
+header .navbar {
+  height: auto;
+  margin-bottom: 0;
+}
+.is-sticky #navigation {
+  background: #fff;
+  z-index: 1000;
+  transition: 0.3s;
+  width: 100%;
+  padding: 0;
+}
+.navbar-brand {
+  padding: 0;
+  height: auto;
+}
+.navbar-toggle {
+  border-color: #333;
+  transition: 0.3s;
+}
+.navbar-toggle .icon-bar {
+  background: #333;
+  transition: 0.3s;
+}
+.navbar-toggle:hover {
+  border-color: #80d6a3;
+}
+.navbar-toggle:hover .icon-bar {
+  background: #80d6a3;
+}
+.menu a {
+  color: #333;
+  transition: 0.3s;
+  position: relative;
+  font-size: 16px;
+}
+.menu a:before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  bottom: 12px;
+  width: 0;
+  height: 1px;
+  background: #80d6a3;
+  transition: 0.3s;
+}
+.menu a:hover {
+  background: transparent;
+  color: #80d6a3;
+}
+
+.menu .active a {
+  color: #80d6a3;
+}
+
+.menu .active a:before{
+  width: 25px;
+}
+
+.menu a:hover:before {
+  width: 25px;
+}
+
 .instilogo {
     height: 50px;
     filter: grayscale(20%);
