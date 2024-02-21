@@ -93,7 +93,7 @@ const instyearsize = "11px";
 
 // Works for sans serif, change otherwise
 $("head").append("<link href='https://fonts.googleapis.com/css2?family=" + fontname + ":wght@" + fontweights.join(';') + "&display=swap' rel='stylesheet' type='text/css'>");
-$("head").css("background-color", backgroundcolor);
+$("head").css("background-color", highlightcolor);
 
 $("body").css("font-family", fontname);
 $("body").css("font-weight", bodyfontweight);
