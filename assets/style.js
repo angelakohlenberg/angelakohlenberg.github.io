@@ -99,13 +99,11 @@ $("body").css("font-weight", bodyfontweight);
 
 $("body").css("color", basecolor);
 $("body").css("font-size", bodyfontsize);
-// $("body").css("background-color", backgroundcolor);
+$("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
-
-$("sec").css("background-color", darkbackgroundcolor);
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
