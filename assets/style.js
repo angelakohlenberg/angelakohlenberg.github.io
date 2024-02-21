@@ -17,7 +17,7 @@ const bodyfontweight = 300;
 const headerfontweight = 500;
 const titlefontweight = 425;
 const bodyfontsize = "12pt";
-const smalltextfontsize = "10pt";
+const smalltextfontsize = "11pt";
 const backgroundcolor = "#fff";
 
 // Link properties
