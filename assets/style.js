@@ -7,6 +7,7 @@ const fontweights = [300, 400, 500]
 const basecolor = "#444444";
 const accentcolor = "#000000";
 const highlightcolor = "#2471A3";
+const hovercolor = "#a35624";
 const darkbackgroundcolor = "#f9f9f9";
 
 // const basecolor = "#888";
@@ -26,7 +27,7 @@ const backgroundcolor = "#fff";
 const acolor = highlightcolor;
 const afontweight = 400;
 const adecoration = "none";
-// const ahovercolor = accentcolor;
+const ahovercolor = hovercolor;
 // const ahoverduration = "0.3s";
 // const ahoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
