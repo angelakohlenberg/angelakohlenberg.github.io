@@ -5,10 +5,10 @@
 
 a:hover {
     /* font-weight: 400; */
-    text-decoration: none;
+    text-decoration: underline;
     transition-duration: 0.3s;
     transition-timing-function: linear;
-    color: #a35624; 
+    /* color: #a35624; */
 }
 
 
