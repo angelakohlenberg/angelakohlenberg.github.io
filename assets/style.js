@@ -29,7 +29,7 @@ const afontweight = 400;
 const adecoration = "none";
 // const ahovercolor = hovercolor;
 // const ahoverduration = "0.3s";
-const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
+// const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
 const menucolor = basecolor;
