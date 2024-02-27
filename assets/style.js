@@ -7,8 +7,8 @@ const fontweights = [300, 400, 500]
 const basecolor = "#444444";
 const accentcolor = "#000000";
 const highlightcolor = "#2471A3";
-const hovercolor = "#a35624";
-const darkbackgroundcolor = "#f9f9f9";
+// const hovercolor = "#a35624";
+// const darkbackgroundcolor = "#f9f9f9";
 
 // const basecolor = "#888";
 // const accentcolor = "#222";
@@ -27,9 +27,9 @@ const backgroundcolor = "#fff";
 const acolor = highlightcolor;
 const afontweight = 400;
 const adecoration = "none";
-const ahovercolor = hovercolor;
+// const ahovercolor = hovercolor;
 // const ahoverduration = "0.3s";
-// const ahoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
+const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Menu properties
 const menucolor = basecolor;
@@ -53,8 +53,6 @@ const subheadercolor = accentcolor;
 const subheaderfontsize = "13pt";
 const subheadertext = "uppercase";
 const subheaderweight = subheaderfontweight;
-
-
 
 // Publication properties
 const ptitlecolor = accentcolor;
@@ -111,7 +109,7 @@ $("body2").css("background-color", darkbackgroundcolor);
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
-$("a:hover").css("color", ahovercolor);
+$("a:hover").css("text-decoration", ahoverdecoration);
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
