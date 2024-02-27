@@ -100,12 +100,6 @@ $("body").css("color", basecolor);
 $("body").css("font-size", bodyfontsize);
 $("body").css("background-color", backgroundcolor);
 
-$("body2").css("font-family", fontname);
-$("body2").css("font-weight", bodyfontweight);
-$("body2").css("color", basecolor);
-$("body2").css("font-size", bodyfontsize);
-$("body2").css("background-color", darkbackgroundcolor);
-
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a").css("text-decoration", adecoration);
