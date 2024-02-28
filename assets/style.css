@@ -11,8 +11,8 @@ a:hover {
     /* color: #2471A3; */
 }
 
-.current a {
-     color: #2471A3; 
+a:active {
+     color: #a35624; 
 }
 
 
