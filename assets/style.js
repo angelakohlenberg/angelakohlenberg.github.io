@@ -7,7 +7,7 @@ const fontweights = [300, 400, 500]
 const basecolor = "#444444";
 const accentcolor = "#000000";
 const highlightcolor = "#2471A3";
-const hovercolor = "#a35624";
+const activecolor = "#a35624";
 // const darkbackgroundcolor = "#f9f9f9";
 
 // const basecolor = "#888";
@@ -30,7 +30,7 @@ const adecoration = "none";
 const ahovercolor = highlightcolor;
 const ahoverduration = "0.3s";
 const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
-const acurrentcolor = hovercover;
+const aactivecolor = activecover;
 
 // Menu properties
 const menucolor = basecolor;
@@ -104,6 +104,7 @@ $("body").css("background-color", backgroundcolor);
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
 $("a:hover").css("text-decoration", ahoverdecoration);
+$("a:active").css("color", aactivecolor);
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
