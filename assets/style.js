@@ -102,7 +102,6 @@ $("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
-$("a").css("text-decoration", adecoration);
 $("a:hover").css("text-decoration", ahoverdecoration);
 
 $(".menulink").css("color", menucolor);
