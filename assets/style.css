@@ -5,7 +5,7 @@
 
 a:hover {
     /* font-weight: 400; */
-    text-decoration: underline;
+    text-decoration: none;
     transition-duration: 0.3s;
     transition-timing-function: linear;
     /* color: #2471A3; */
