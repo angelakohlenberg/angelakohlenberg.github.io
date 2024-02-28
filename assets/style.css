@@ -11,6 +11,12 @@ a:hover {
     /* color: #2471A3; */
 }
 
+a:active {
+    /* font-weight: 400; */
+    text-decoration: underline;
+    /* color: #2471A3; */
+}
+
 .noter {
     font-size: 9pt;
 }
