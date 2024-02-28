@@ -27,9 +27,9 @@ const backgroundcolor = "#fff";
 const acolor = highlightcolor;
 const afontweight = 400;
 const adecoration = "none";
-const ahovercolor = highlightcolor;
-const ahoverduration = "0.3s";
-const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
+//const ahovercolor = highlightcolor;
+//const ahoverduration = "0.3s";
+//const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 // const aactivecolor = activecover;
 
 // Menu properties
@@ -103,7 +103,7 @@ $("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("font-weight", afontweight);
-$("a:hover").css("text-decoration", ahoverdecoration);
+//$("a:hover").css("text-decoration", ahoverdecoration);
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
