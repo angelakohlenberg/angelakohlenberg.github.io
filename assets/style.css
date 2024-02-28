@@ -24,6 +24,10 @@ a:hover {
     padding-right: 2px;
 }
 
+.tag:hover {
+    text-decoration: underline;
+}
+
 .confshort {
     font-weight: 300;
 }
