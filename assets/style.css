@@ -11,6 +11,11 @@ a:hover {
     /* color: #2471A3; */
 }
 
+.current a {
+     color: #2471A3; 
+}
+
+
 
 .noter {
     font-size: 9pt;
