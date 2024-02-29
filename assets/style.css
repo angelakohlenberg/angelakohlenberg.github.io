@@ -3,12 +3,6 @@
     filter: grayscale(20%);
 }
 
-a:active {
-    /* font-weight: 400; */
-    text-decoration: underline;
-    /* color: #2471A3; */
-}
-
 a:hover {
     /* font-weight: 400; */
     text-decoration: underline;
