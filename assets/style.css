@@ -3,17 +3,17 @@
     filter: grayscale(20%);
 }
 
+a:active {
+    /* font-weight: 400; */
+    text-decoration: underline;
+    /* color: #2471A3; */
+}
+
 a:hover {
     /* font-weight: 400; */
     text-decoration: underline;
     transition-duration: 0.3s;
     transition-timing-function: linear;
-    /* color: #2471A3; */
-}
-
-a:active {
-    /* font-weight: 400; */
-    text-decoration: underline;
     /* color: #2471A3; */
 }
 
