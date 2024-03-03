@@ -25,7 +25,7 @@ const backgroundcolor = "#fff";
 
 // Link properties
 const acolor = highlightcolor;
-const afontweight = 400;
+const afontweight = 350;
 const adecoration = "none";
 const ahovercolor = highlightcolor;
 const ahoverduration = "0.3s";
