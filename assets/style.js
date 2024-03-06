@@ -42,7 +42,7 @@ const menudecoration = "none";
 
 // Header properties
 const namecolor = accentcolor;
-const namefontsize = "24pt";
+const namefontsize = "23pt";
 const nametext = "uppercase";
 const nameweight = bodyfontweight;
 const headercolor = accentcolor;
