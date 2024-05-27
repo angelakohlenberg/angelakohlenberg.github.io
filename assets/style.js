@@ -21,7 +21,7 @@ const headerfontweight = 500;
 const subheaderfontweight = 400;
 const afontweight = 400;
 const namefontweight = 400;
-const bodyfontsize = "12pt";
+const bodyfontsize = "11.5pt";
 const smalltextfontsize = "11pt";
 const backgroundcolor = "#fff";
 
