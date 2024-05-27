@@ -22,6 +22,7 @@ const subheaderfontweight = 400;
 const afontweight = 400;
 const namefontweight = 400;
 const bodyfontsize = "11.5pt";
+const titlefontsize = "12pt";
 const smalltextfontsize = "11pt";
 const backgroundcolor = "#fff";
 
@@ -43,7 +44,7 @@ const menudecoration = "none";
 
 // Header properties
 const namecolor = accentcolor;
-const namefontsize = "20pt";
+const namefontsize = "21pt";
 const nametext = "uppercase";
 const nameweight = namefontweight;
 const headercolor = accentcolor;
@@ -58,7 +59,7 @@ const subheaderweight = subheaderfontweight;
 
 // Publication properties
 const ptitlecolor = accentcolor;
-const ptitlefontsize = bodyfontsize;
+const ptitlefontsize = titlefontsize;
 const ptitleweight = titlefontweight;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
@@ -119,6 +120,9 @@ $(".subheader").css("color", subheadercolor);
 $(".subheader").css("font-size", subheaderfontsize);
 $(".subheader").css("text-transform", subheadertext);
 $(".subheader").css("font-weight", subheaderweight);
+$(".bold").css("color", basecolor);
+$(".bold").css("font-size", bodyfontsize);
+$(".bold").css("font-weight", ptitleweight);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 $(".name").css("text-transform", nametext);
