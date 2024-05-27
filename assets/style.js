@@ -1,6 +1,6 @@
 // Initialize font properties
 const fontname = "Roboto";
-const fontweights = [250, 350, 450]
+const fontweights = [100, 300, 400, 500]
 
 
 // Color properties
@@ -15,17 +15,17 @@ const highlightcolor = "#2471A3";
 // const highlight = "#111";
 
 // Body properties
-const bodyfontweight = 250;
+const bodyfontweight = 100;
 const headerfontweight = 300;
-const subheaderfontweight = 350;
+const subheaderfontweight = 400;
 const titlefontweight = 300;
+const afontweight = 300;
 const bodyfontsize = "12pt";
 const smalltextfontsize = "11pt";
 const backgroundcolor = "#fff";
 
 // Link properties
 const acolor = highlightcolor;
-const afontweight = 300;
 const adecoration = "none";
 const ahovercolor = highlightcolor;
 const ahoverduration = "0.3s";
