@@ -18,16 +18,16 @@ const highlightcolor = "#2471A3";
 const bodyfontweight = 300;
 const titlefontweight = 400;
 const headerfontweight = 700;
-const subheaderfontweight = 400;
+const subheaderfontweight = 500;
 const afontweight = 400;
-const namefontweight = 700;
+const namefontweight = 400;
 
 const bodyfontsize = "11.5pt";
 const titlefontsize = "12pt";
 const smalltextfontsize = "11pt";
 const subheaderfontsize = "13pt";
 const headerfontsize = "20pt";
-const namefontsize = "20pt";
+const namefontsize = "22pt";
 
 const backgroundcolor = "#fff";
 
