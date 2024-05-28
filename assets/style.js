@@ -20,7 +20,7 @@ const titlefontweight = 400;
 const headerfontweight = 500;
 const subheaderfontweight = 400;
 const afontweight = 400;
-const namefontweight = 400;
+const namefontweight = 500;
 const bodyfontsize = "11.5pt";
 const titlefontsize = "12pt";
 const smalltextfontsize = "11pt";
@@ -44,7 +44,7 @@ const menudecoration = "none";
 
 // Header properties
 const namecolor = accentcolor;
-const namefontsize = "21pt";
+const namefontsize = "20pt";
 const nametext = "uppercase";
 const nameweight = namefontweight;
 const headercolor = accentcolor;
