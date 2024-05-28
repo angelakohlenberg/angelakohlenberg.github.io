@@ -27,7 +27,7 @@ const titlefontsize = "12pt";
 const smalltextfontsize = "11pt";
 const subheaderfontsize = "13pt";
 const headerfontsize = "20pt";
-const namefontsize = "22pt";
+const namefontsize = "20pt";
 
 const backgroundcolor = "#fff";
 
