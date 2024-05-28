@@ -17,13 +17,18 @@ const highlightcolor = "#2471A3";
 // Body properties
 const bodyfontweight = 300;
 const titlefontweight = 400;
-const headerfontweight = 500;
+const headerfontweight = 700;
 const subheaderfontweight = 400;
 const afontweight = 400;
-const namefontweight = 500;
+const namefontweight = 700;
+
 const bodyfontsize = "11.5pt";
 const titlefontsize = "12pt";
 const smalltextfontsize = "11pt";
+const subheaderfontsize = "13pt";
+const headerfontsize = "20pt";
+const namefontsize = "20pt";
+
 const backgroundcolor = "#fff";
 
 // Link properties
@@ -44,16 +49,13 @@ const menudecoration = "none";
 
 // Header properties
 const namecolor = accentcolor;
-const namefontsize = "20pt";
 const nametext = "uppercase";
 const nameweight = namefontweight;
 const headercolor = accentcolor;
-const headerfontsize = "20pt";
 const headerdecoration = "none";
 const headertext = "uppercase";
 const headerweight = headerfontweight;
 const subheadercolor = accentcolor;
-const subheaderfontsize = "13pt";
 const subheadertext = "uppercase";
 const subheaderweight = subheaderfontweight;
 
