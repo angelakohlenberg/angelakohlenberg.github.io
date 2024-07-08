@@ -20,7 +20,8 @@ const titlefontweight = 400;
 const headerfontweight = 700;
 const subheaderfontweight = 500;
 const afontweight = 400;
-const namefontweight = 400;
+const namefontweight = 700;
+const lastnamefontweight = 300;
 
 const bodyfontsize = "11.5pt";
 const titlefontsize = "12pt";
@@ -28,6 +29,7 @@ const smalltextfontsize = "11pt";
 const subheaderfontsize = "13pt";
 const headerfontsize = "20pt";
 const namefontsize = "20pt";
+const lastnamefontsize = "20pt";
 
 const backgroundcolor = "#fff";
 
@@ -50,7 +52,9 @@ const menudecoration = "none";
 // Header properties
 const namecolor = accentcolor;
 const nametext = "uppercase";
+const lastnametext = "uppercase";
 const nameweight = namefontweight;
+const lastnameweight = lastnamefontweight;
 const headercolor = accentcolor;
 const headerdecoration = "none";
 const headertext = "uppercase";
@@ -129,6 +133,9 @@ $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 $(".name").css("text-transform", nametext);
 $(".name").css("font-weight", nameweight);
+$(".lastname").css("font-size", lastnamefontsize);
+$(".lastname").css("text-transform", lastnametext);
+$(".lastname").css("font-weight", lastnameweight);
 
 $(".smalltext").css("font-size", smalltextfontsize);
 
