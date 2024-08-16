@@ -3,7 +3,7 @@
     filter: grayscale(20%);
 }
 
-img-icon {
+.icon {
   display: block;
   max-width: 50%;
   height: auto;
