@@ -3,6 +3,12 @@
     filter: grayscale(20%);
 }
 
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+}
+
 a:hover {
     /* font-weight: 400; */
     text-decoration: underline;
